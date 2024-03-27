@@ -1,4 +1,4 @@
 def resta(a,b):
   print(a-b)
 
-resta(10-5)
+resta(10,5)
