@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'python3 /ruta/completa/al/main.py'
+                sh 'python3 ./main.py'
             }
         }
     }
