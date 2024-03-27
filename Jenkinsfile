@@ -12,6 +12,7 @@ pipeline {
             steps {
                 echo 'Testing...'
                 sh 'python3 ./suma.py'
+                sh 'python3 ./resta.py'
             }
         }
     }
