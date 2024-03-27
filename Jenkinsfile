@@ -5,13 +5,13 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                python3 main.py
+                sh 'python3 ./main.py'
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing...'
-                python3 suma.py
+                sh 'python3 ./suma.py'
             }
         }
     }
